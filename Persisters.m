@@ -51,7 +51,7 @@ Envs = {'Env_1_Constant'            , ...
 % SPATIAL DISCRETIZATION
   Nlog      = 49;
   Nlin      = 30;
-  lmin      = 1e-4;%1e-5;
+  lmin      = 1e-4;
   lmax      = 0.1;
   Nz        = 100;
   if strcmp(Env,'Env_3_Poisson')
