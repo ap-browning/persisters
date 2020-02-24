@@ -77,7 +77,7 @@ Envs = {'Env_1_Constant'            , ...
 
 % LOAD ?
 if Load
-    load(['Environments/',Env,'_',Control,'.mat']);
+    load(['Environments/',Env,'.mat']);
     
 % SOLVE HJB
 else
