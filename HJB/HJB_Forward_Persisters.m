@@ -33,16 +33,22 @@ switch nargin
         B(2,:)  = randn(1,length(T));
         
     case 8
-        if varargin{1}
+        if varargin{1} == true
             rng(365867);
             B(1,:)  = randn(1,length(T));
             rng(741941);
             B(2,:)  = randn(1,length(T));
         else
-            rng(varargin{1}(1));
-            B(1,:)  = randn(1,length(T));
-            rng(varargin{1}(2));
-            B(2,:)  = randn(1,length(T));
+            if length(varargin{1}) == 2
+                rng(varargin{1}(1));
+                B(1,:)  = randn(1,length(T));
+                rng(varargin{1}(2));
+                B(2,:)  = randn(1,length(T));
+            else
+                rng(varargin{1});
+                B(1,:)  = randn(1,length(T));
+                B(2,:)  = randn(1,length(T));
+            end
         end
         
 end
