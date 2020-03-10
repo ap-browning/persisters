@@ -24,7 +24,7 @@ Y(:,1)  = y;
 
 dt      = T(2) - T(1);
 
-% Generate brownian motion - todo : take seed as input
+% Generate brownian motion
 switch nargin
     
     % No seed
