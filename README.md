@@ -1,6 +1,6 @@
 # persisters
 
-Supplementary code for the preprint "Persistence is an optimal hedging strategy for bacteria in volatile environments" [available on bioRxiv](https://www.biorxiv.org/content/10.1101/2019.12.19.883645v1)
+Supplementary code for the preprint "Persistence as an optimal hedging strategy" [available on bioRxiv](https://www.biorxiv.org/content/10.1101/2019.12.19.883645v3)
 
 ## Code
 
